@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <style>
+        .infofield{
+            border: 1px solid black;
+            
+            
+        }
+        form{
+            border: 1px solid black;
+        }
+        label{
+            text-align: center;
+        }
+    </style>
+    
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Course_selection.jsp" method="GET">
+           
+                 <h1>Student Information Form</h1><br>
+        <label for= "studentid">Student ID</label><input type="text" id="studentid" class="infofield"><br>
+        <label for= "names">Names</label><input type="text" id="names" class="infofield"><br>
+        <label for= "gender">Gender</label><input type="text" id="gender" class="infofield"><br>
+        <label for= "dob">Date of Birth</label><input type="date" id="dob" class="infofield"><br>
+        <input type = submit value="next" class='infofield'>
+           
+        </form>
+    </body>
+</html>
